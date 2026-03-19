@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Catálogo de Productos</title>
+  
+  <!-- CSS externo -->
+  <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+
+  <header>
+    <p class="eyebrow">Tienda Online</p>
+    <h1>Catálogo de <span>Productos</span></h1>
+    <p class="subtitle">Encuentra lo que necesitas al mejor precio</p>
+  </header>
+
+  <div class="grid">
+
+    <!-- Card 1: Samsung -->
+    <div class="card">
+      <div class="badge">Tecnología</div>
+      <div class="card-title">Samsung Galaxy A55 5G</div>
+
+      <div class="specs">
+        <div class="spec-row">
+          <span class="spec-label">Pantalla</span>
+          <span class="spec-value">6.6" Super AMOLED, 120 Hz</span>
+        </div>
+        <div class="spec-row">
+          <span class="spec-label">Procesador</span>
+          <span class="spec-value">Exynos 1480 Octa-core</span>
+        </div>
+        <div class="spec-row">
+          <span class="spec-label">RAM / Storage</span>
+          <span class="spec-value">8 GB / 256 GB</span>
+        </div>
+        <div class="spec-row">
+          <span class="spec-label">Cámara trasera</span>
+          <span class="spec-value">50 MP + 12 MP + 5 MP</span>
+        </div>
+        <div class="spec-row">
+          <span class="spec-label">Cámara frontal</span>
+          <span class="spec-value">32 MP</span>
+        </div>
+        <div class="spec-row">
+          <span class="spec-label">Batería</span>
+          <span class="spec-value">5000 mAh</span>
+        </div>
+        <div class="spec-row">
+          <span class="spec-label">Sistema</span>
+          <span class="spec-value">Android 14</span>
+        </div>
+        <div class="spec-row">
+          <span class="spec-label">Conectividad</span>
+          <span class="spec-value">5G, Bluetooth, Wi-Fi, NFC</span>
+        </div>
+      </div>
+
+      <div class="card-footer">
+        <div class="price">
+          <span class="price-label">Precio</span>
+          <span class="price-value">$60.000</span>
+        </div>
+        <button class="btn">
+          Comprar
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/>
+            <line x1="3" y1="6" x2="21" y2="6"/>
+            <path d="M16 10a4 4 0 0 1-8 0"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- Card 2: Balón -->
+    <div class="card">
+      <div class="badge orange">Deportes</div>
+      <div class="card-title">Balón de Microfútbol</div>
+
+      <p class="description">
+        Diseñado para superficies sintéticas. Material de alta resistencia, costura reforzada y control preciso para juego profesional o recreativo.
+      </p>
+
+      <div class="card-footer">
+        <div class="price">
+          <span class="price-label">Precio</span>
+          <span class="price-value">$45.000</span>
+        </div>
+        <button class="btn" style="background: var(--accent-2);">
+          Comprar
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/>
+            <line x1="3" y1="6" x2="21" y2="6"/>
+            <path d="M16 10a4 4 0 0 1-8 0"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>
